@@ -1,22 +1,27 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-export class NewsItem extends Component {
-  render() {
-    let { title, description, imageUrl, newsUrl, author, date, source } = this.props;
+const NewsItem =(props) =>{
+    let { title, description, imageUrl, newsUrl, author, date, source } =
+      props;
     return (
-      <div class="card" style={{ width: "22rem" }}>
-        <img src={imageUrl} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">
-            {title}
-            <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left: '90%', zIndex: '1'}}>
-              {source}
-</span>
-          </h5>
-          <p class="card-text">{description}....</p>
-          <p class="card-text">
-            <small class="text-muted">
+      <div className="card" style={{ width: "22rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-end",
+            position: "absolute",
+            right: "0",
+          }}
+        >
+          <span className="badge rounded-pill bg-danger">{source}</span>
+        </div>
+        <img src={imageUrl} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">{description}....</p>
+          <p className="card-text">
+            <small className="text-muted">
               By {author ? author : "unknown"} on {new Date(date).toGMTString()}
             </small>
           </p>
@@ -24,14 +29,13 @@ export class NewsItem extends Component {
             rel="noreferrer"
             to={newsUrl}
             target="_blank"
-            class="btn btn-sm btn-primary"
+            className="btn btn-sm btn-primary"
           >
             Read More
           </Link>
         </div>
       </div>
     );
-  }
 }
 
 export default NewsItem;
