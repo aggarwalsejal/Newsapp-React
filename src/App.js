@@ -1,12 +1,12 @@
 import './App.css';
-import NewsItem from './NewsItem';
 import Navbar from './components/Navbar';
+import News from './components/News';
 
 function App() {
   return (
     <>
     <Navbar></Navbar>
-    <NewsItem></NewsItem>
+   <News pageSize={5} country="in" category="science"></News>
     </>
   );
 }

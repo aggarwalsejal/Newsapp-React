@@ -5,7 +5,7 @@ export class Navbar extends Component {
     return (
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             Navbar
           </a>
           <button
@@ -29,6 +29,41 @@ export class Navbar extends Component {
               <li class="nav-item">
                 <a class="nav-link" href="/about">
                   About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/business">
+                  Business
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/entertainment">
+                  Entertainment
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/general">
+                  General
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/health">
+                  Health
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/science">
+                  Science
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sports">
+                  Sports
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/echnology">
+                  Technology
                 </a>
               </li>
             </ul>
