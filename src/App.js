@@ -1,8 +1,13 @@
 import './App.css';
+import NewsItem from './NewsItem';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <dic>This is News Website</dic>
+    <>
+    <Navbar></Navbar>
+    <NewsItem></NewsItem>
+    </>
   );
 }
 
