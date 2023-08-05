@@ -1,10 +1,11 @@
 const {createProxyMiddleware}=require('http-proxy-middleware')
 
-module.exports=app=>{
+module.exports=function(app){
     app.use(
-        createProxyMiddleware('/api',{
-          target:"https://newsapi.org/v2"
+        createProxyMiddleware('/api/**',{
+          target:"http://127.0.0.1:3000",
+          secure:false
             
         })
-    )
-}
+    );
+};
