@@ -8,7 +8,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 const News = (props) => {
     // eslint-disable-next-line
 const[articles, setArticles]=useState([]);
-
+const[loading, setLoading]=useState(true);
 const[page, setPage]=useState(1);
 const[totalResults, setTotalResults]=useState(0);
 // document.title = `${capitalizeFirstLetter(props.category)}- News`;
@@ -21,15 +21,16 @@ const[totalResults, setTotalResults]=useState(0);
   useEffect(() =>{
     const updateNews = async ()=> {
         props.setProgress(10);
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${page}&pageSize=${props.pageSize}`;
-    
+        const url = `http
+        ://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${page}&pageSize=${props.pageSize}`;
+        setLoading(true)
         let data = await fetch(url);
         props.setProgress(30);
         let parseData = await data.json();
         props.setProgress(70);
         setArticles(parseData.articles)
         setTotalResults(parseData.totalResults)
-      
+        setLoading(false)
         props.setProgress(100);
       };
       updateNews();
@@ -38,7 +39,7 @@ const[totalResults, setTotalResults]=useState(0);
 
  const fetchMoreData = async () => {
    
-    let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${page}&pageSize=${props.pageSize}`;
+    let url = `http://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${page}&pageSize=${props.pageSize}`;
      setPage(page+1)
     let data = await fetch(url);
     let parseData = await data.json();
@@ -50,12 +51,12 @@ const[totalResults, setTotalResults]=useState(0);
         <h1 className="text-center" style={{ margin: "40px 0px;", marginTop: "90px" }}>
           News - Top {capitalizeFirstLetter(props.category)} HeadLines
         </h1>
-        { <Spinner />}
+        {loading && <Spinner />}
         <InfiniteScroll
           dataLength={articles.length}
           next={fetchMoreData}
           hasMore={articles.length !== totalResults}
-         
+          loader={<Spinner />}
         >
           <div className="container">
             <div className="row my-3">
