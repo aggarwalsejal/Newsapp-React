@@ -1,7 +1,7 @@
 {
   "name": "news-api",
   "version": "0.1.0",
-  "proxy":"http://localhost:3000",
+  "proxy":"https://newsapi.org/v2",
   "homepage": "https://aggarwalsejal.com/Newsapp-react/",
   "private": true,
   "dependencies": {

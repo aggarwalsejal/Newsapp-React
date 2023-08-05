@@ -57,7 +57,7 @@ const Navbar = ()=>{
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/echnology">
+                <Link className="nav-link" to="/technology">
                   Technology
                 </Link>
               </li>
