@@ -3,7 +3,10 @@ import Navbar from "./components/Navbar";
 import News from "./components/News";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
+import restProvider from 'ra-data-simple-rest'
 import LoadingBar from "react-top-loading-bar";
+
+const dataProvider=restProvider('https://localhost:3000')
 
 const App =()=> {
   const pageSize = 5;
@@ -12,7 +15,7 @@ const App =()=> {
 
     return (
       <div>
-        <Router>
+        <Router dataProvider={dataProvider}>
           <Navbar></Navbar>
           <LoadingBar color="#f11946" progress={progress} />
           <Routes>

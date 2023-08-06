@@ -1,13 +1,14 @@
 {
   "name": "news-api",
   "version": "0.1.0",
-  "proxy":"http://127.0.0.1:3000/",
+  "proxy": "http://127.0.0.1:3000/",
   "homepage": "https://aggarwalsejal.com/Newsapp-react/",
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",
     "cra-template": "1.2.0",
     "http-proxy-middleware": "^2.0.6",
+    "ra-data-simple-rest": "^4.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-infinite-scroll-component": "^6.1.0",
