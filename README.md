@@ -80,3 +80,10 @@ For  more details, use [this](https://react.dev/) link
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "react-top-loading-bar": "^2.3.1"
+
+To read more about, <br>
+react-router-dom package, follow [this](https://www.npmjs.com/package/react-router-dom) link<br>
+react-toastify, follow [this](https://www.npmjs.com/package/react-toastify)  link
+ra-data-simple-rest, follow [this](https://www.npmjs.com/package/ra-data-simple-rest) link <br>
+react-infinite-scroll-component follow [this](https://www.npmjs.com/package/react-infinite-scroll-component) link <br>
+react-top-loading-bar follow [this](https://www.npmjs.com/package/react-top-loading-bar) link <br>
