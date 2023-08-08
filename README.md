@@ -83,7 +83,7 @@ For  more details, use [this](https://react.dev/) link
 
 To read more about, <br>
 react-router-dom package, follow [this](https://www.npmjs.com/package/react-router-dom) link<br>
-react-toastify, follow [this](https://www.npmjs.com/package/react-toastify)  link <br>
+react-toastify, follow [this](https://www.npmjs.com/package/react-toastify)  link<br>
 ra-data-simple-rest, follow [this](https://www.npmjs.com/package/ra-data-simple-rest) link <br>
 react-infinite-scroll-component follow [this](https://www.npmjs.com/package/react-infinite-scroll-component) link <br>
 react-top-loading-bar follow [this](https://www.npmjs.com/package/react-top-loading-bar) link <br>
