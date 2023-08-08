@@ -1,6 +1,9 @@
+<img width="1728" alt="Screenshot 2023-08-04 at 11 21 02 PM" src="https://github.com/sejal175/Newsapp-react/assets/56756275/daf7ba89-8d9b-46f7-9309-83e6b89f746c">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
