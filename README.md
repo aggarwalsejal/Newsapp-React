@@ -4,11 +4,11 @@
 
 
 # :bookmark_tabs: What’s In This Document
-[Pre-requisite to run React](pre-requisite-to-run-react)
+* [Pre-requisite to run React](pre-requisite-to-run-react)
 * [How to create your first React App](#how-to-create-your-first-react-app)
 * [Script require to run the project](script-require-to-run-the-project)
 * [Where to see the running project](where-to-see-the-running-project)
-  [React Packages Used](react-packages-used)
+* [React Packages Used](react-packages-used)
 
 <h1> :point_right: Pre-requisite to run React </h1>
 
@@ -66,6 +66,7 @@ In the project directory, you have the following scripts to run:
 
 
 <h1> :eyes: Where to see the running project</h1>
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.<br>
 For  more details, use [this](https://react.dev/) link
 
