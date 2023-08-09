@@ -12,7 +12,17 @@
 
 <h1> :point_right: Pre-requisite to run React </h1>
 
-Install Node.js and npm in the local machine. Use [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) docuementation for info and set up steps.
+Install Node.js and npm in the local machine. Use [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) docuementation for info and set up steps.<br>
+
+I have used the API of the News APP and fetched that data in my local system. You can get the API key from this [website](https://newsapi.org/) and additional details which this News App includes.<br>
+
+This site could not be hosted because of the API restriction on it. This could only run on the localhost.<br>
+
+FYI: If you try to host this webiste, you can get the ERROR :x: message in the Preview Section of the Network Logs stating that:<br>
+
+     cors:"corsNotAllowed"
+     message:"Requests from the browser are not allowed on the Developed plan, except from localhost"<br>
+     status:"error"
 
 <h1> :rocket: How to create your first React App</h1>
 
