@@ -1,16 +1,16 @@
 <img width="1728" alt="Screenshot 2023-08-04 at 11 21 02 PM" src="https://github.com/sejal175/Newsapp-react/assets/56756275/daf7ba89-8d9b-46f7-9309-83e6b89f746c">
-<h3 align=center> :smile: <strong>Newapp</strong> is <em><strong>React Website</strong></em> highlighting daily news on the website :smile: </h3>
+<h3 align=center> :smile: <strong>Newapp</strong> is <em><strong>React Website</strong></em> highlighting daily news :newspaper: on the website :smile: </h3>
 <p align=center> :heart: Show your love to this project :heart:</p>
 
 
 # :bookmark_tabs: What’s In This Document
-* [Pre-requisite to run React](pre-requisite-to-run-react)
-* [How to create your first React App](#how-to-create-your-first-react-app)
-* [Script require to run the project](script-require-to-run-the-project)
-* [Where to see the running project](where-to-see-the-running-project)
-* [React Packages Used](react-packages-used)
+* [Pre-requisite to run React](#point_right-pre-requisite-to-run-react)
+* [How to create your first React App](#rocket-how-to-create-your-first-react-app)
+* [Script require to run the project](#bookmark-script-require-to-run-the-project)
+* [Where to see the running project](#eyes-where-to-see-the-running-project)
+* [React Packages Used](#boom-react-packages-used)
 
-<h1> :point_right: Pre-requisite to run React </h1>
+# :point_right: Pre-requisite to run React 
 
 Install Node.js and npm in the local machine. Use [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) docuementation for info and set up steps.<br>
 
@@ -24,7 +24,7 @@ FYI: If you try to host this webiste, you can get the ERROR :x: message in the P
      message:"Requests from the browser are not allowed on the Developed plan, except from localhost"<br>
      status:"error"
 
-<h1> :rocket: How to create your first React App</h1>
+# :rocket: How to create your first React App
 
 :one: Create a folder for React Project<br>
 
@@ -44,7 +44,7 @@ npm start
 Read [this](https://create-react-app.dev/) documentation for more details
 
 
-<h1> :bookmark: Script require to run the project</h1>
+# :bookmark: Script require to run the project
 
 <li>For Bootstrap, add Script for Javascript and CSS</li><br>
 
@@ -75,12 +75,13 @@ In the project directory, you have the following scripts to run:
 &nbsp; &nbsp; &nbsp; See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-<h1> :eyes: Where to see the running project</h1>
+# :eyes: Where to see the running project
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.<br>
+
 For  more details, use [this](https://react.dev/) link
 
-<h2> :boom: React Packages Used</h2>
+# :boom: React Packages Used
 
     "cors": "^2.8.5",
     "cra-template": "1.2.0",
@@ -93,6 +94,7 @@ For  more details, use [this](https://react.dev/) link
     "react-top-loading-bar": "^2.3.1"
 
 To read more about, <br>
+
 react-router-dom package, follow [this](https://www.npmjs.com/package/react-router-dom) link<br>
 react-toastify, follow [this](https://www.npmjs.com/package/react-toastify)  link<br>
 ra-data-simple-rest, follow [this](https://www.npmjs.com/package/ra-data-simple-rest) link <br>
